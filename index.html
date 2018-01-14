@@ -4,8 +4,44 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Online Counter/Stopwatch</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body>
-        <h1>Online Counter/Stopwatch</h1>
+        <div id="box">
+            <div id="tabs">
+                <div class="tab selected">
+                    <div class="tabcontents">
+                        <input type="text" name="clicks" value="100">
+                        <div class="label">clicks</div>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="tabcontents">
+                        <input type="text" name="seconds" value="90">
+                        <div class="label">seconds</div>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="stopwatch">
+                    <div id="time">
+                        0:00:00.00
+                        <div id="resetlabel">
+                            (tap to <span id="action">stop</span>)
+                        </div>
+                    </div>
+                    <div id="clickspersec" class="partials">
+                        <span>0.0</span> clicks/s
+                    </div>
+                    <div id="secsperclick" class="partials">
+                        <span>0.0</span> s/click
+                    </div>
+                </div>
+                <div id="counter">
+                    <div id="counterlabel">start</div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

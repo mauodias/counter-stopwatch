@@ -1,3 +1,98 @@
-/*
-  styles
-*/
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18pt;
+}
+
+#box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+#tabs {
+  flex: 0 0 20%;
+  max-height: 90px;
+}
+
+.tab {
+  margin: auto;
+  height: 100%;
+  background-color: #4a4a4a;
+  color: #9da6a9;
+  float: left;
+  width: 50%;
+}
+
+.tab.selected {
+  background-color: white;
+}
+
+.tabcontents {
+  padding-top: 9px;
+  height: 100%;
+}
+
+.label {
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: inherit;
+  color: inherit;
+  border: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+#content {
+  display: flex;
+  flex: 1 1 50%;
+  flex-direction: column;
+}
+
+#stopwatch {
+  flex: 1;
+}
+
+#time {
+  padding-top: 15%;
+  font-size: 2.5em;
+  text-align: center;
+  height: 40%;
+}
+
+.partials {
+  height: 20%;
+  text-align: center;
+}
+
+#resetlabel {
+  font-size: 1rem;
+  visibility: hidden;
+}
+
+#counter {
+  margin: 3%;
+  flex: 1;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+#counterlabel {
+  padding-top: 30%;
+  text-align: center;
+  font-size: 2.5em;
+}
