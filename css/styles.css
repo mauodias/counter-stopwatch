@@ -68,7 +68,7 @@ input {
 }
 
 #time {
-  padding-top: 15%;
+  padding-top: 10%;
   font-size: 2.5em;
   text-align: center;
   height: 40%;
@@ -92,7 +92,7 @@ input {
 }
 
 #counterlabel {
-  padding-top: 30%;
+  padding-top: 15%;
   text-align: center;
   font-size: 2.5em;
 }
